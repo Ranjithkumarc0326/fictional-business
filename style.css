@@ -1,0 +1,196 @@
+/* Global Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+}
+
+header h1 {
+	margin: 0;
+	padding: 20px;
+	display: inline-block;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	margin: 0;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.hero {
+	background-image: url(./image-1200x400.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	padding: 100px 0;
+}
+
+.hero h2 {
+	font-size: 3em;
+	margin: 0;
+}
+
+.hero ul {
+	margin: 0;
+	padding: 20px 0 0 0;
+	list-style: none;
+}
+
+.hero li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.services {
+padding: 100px 0;
+text-align: center;
+}
+
+.services h2 {
+font-size: 2em;
+margin: 0 0 50px 0;
+}
+
+.services ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.services li {
+display: inline-block;
+margin: 0 50px;
+}
+
+.services li img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+
+.services li h3 {
+margin: 0;
+}
+
+.services li p {
+margin: 0;
+font-size: 0.8em;
+}
+
+.contact {
+padding: 100px 0;
+}
+
+.contact h2 {
+font-size: 2em;
+margin: 0 0 50px 0;
+}
+
+.contact form {
+max-width: 500px;
+margin: 0 auto;
+}
+
+.contact label {
+display: block;
+margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 1em;
+}
+
+.contact textarea {
+height: 150px;
+resize: vertical;
+}
+
+.contact button {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1em;
+}
+
+.contact button:hover {
+background-color: #555;
+}
+
+@media (max-width: 767px) {
+header {
+text-align: center;
+}
+header h1 {
+	display: block;
+}
+
+nav {
+	float: none;
+}
+
+.services li {
+	display: block;
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+.services li img {
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+.services li h3 {
+	font-size: 1.2em;
+}
+
+.services li p {
+	font-size: 1em;
+}
+
+.contact form {
+	max-width: none;
+}
+}
